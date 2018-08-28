@@ -1,4 +1,4 @@
-# picview
+# vue-viewjs
 
 > A picture view  use vue base on viewerjs 
 > 一个vue组件 基于 viewerjs的图片查看器

@@ -1,7 +1,6 @@
 # picview
 
-> A picture view base on viewerjs
-
+> A picture view  use vue base on viewerjs
 ## Build Setup
 
 ``` bash

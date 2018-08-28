@@ -1,6 +1,7 @@
 # picview
 
-> A picture view  use vue base on viewerjs
+> A picture view  use vue base on viewerjs 
+> 一个vue组件 基于 viewerjs的图片查看器
 ## Build Setup
 
 ``` bash

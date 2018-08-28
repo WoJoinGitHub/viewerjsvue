@@ -1,7 +1,7 @@
 # vue-viewjs
 
 > A picture view  use vue base on viewerjs 
-> 一个vue组件 基于 viewerjs的图片查看器
+> 一个vue组件 基于 viewerjs的图片查看器 viewer 地址 https://github.com/fengyuanchen/viewer
 ## Build Setup
 
 ``` bash
@@ -24,6 +24,7 @@ Vue.use(globalcom)
         url: 'http://img.zcool.cn/community/0117e2571b8b246ac72538120dd8a4.jpg@1280w_1l_2o_100sh.jpg'
       }
       ]
+      #### config 参考 https://github.com/fengyuanchen/viewer
       var config = {
         button: false, // 顶部关闭按钮
         // navbar: true, // 底部图片缩略图 默认true

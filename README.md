@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # picview
 
 > A picture view base on viewerjs
@@ -57,7 +56,3 @@ Vue.use(globalcom)
     this.$refs.picviewer.show(config)
 ```
 
-=======
-# viewerjsvue
-基于viewerjs的vue插件
->>>>>>> 9dda568d42dcf90f929b738e23e1370b974019e6

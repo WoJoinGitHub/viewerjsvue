@@ -6,7 +6,8 @@
 </template>
 
 <script>
-import { picview } from './lib/index'
+// 局部引用引用
+import { partial } from './lib/index'
 export default {
   name: 'app',
   data () {
@@ -15,12 +16,12 @@ export default {
     }
   },
   components: {
-    picview
+    'picview': partial
   },
   methods: {
     show () {
       this.list = [{
-        url: 'http://img.ivsky.com/img/tupian/pre/201803/23/xueshan.jpg'
+        url: 'http://pic5.photophoto.cn/20071228/0034034901778224_b.jpg'
       }, {
         url: 'http://pic5.photophoto.cn/20071228/0034034901778224_b.jpg'
       }
@@ -53,6 +54,7 @@ export default {
           this.showicon()
         }
       }
+      console.log(this.$refs.picviewer)
       this.$refs.picviewer.show(config)
     },
     showicon () {
